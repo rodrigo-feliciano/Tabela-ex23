@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid rgb(32, 22, 22);
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercicios de tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Maria Beatriz</td>
+                <td>Big brother Brasil</td>
+                <td>Zorra total</td>
+                <td>Av. Brasil</td>
+            </tr>
+            <tr>
+                <td>Simone</td>
+                <td>Malhaçao</td>
+                <td>Mulher Maravilha</td>
+                <td>Big Brother Brasil</td>
+            </tr>
+            <tr>
+                <td>Cibele</td>
+                <td>Meninas super poderosas</td>
+                <td>Reels</td>
+                <td>Homem Aranha</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homem</th>
+                <td>Jose Gomes</td>
+                <td>Jornal Nacional</td>
+                <td>Lulinha</td>
+                <td>Futebol</td>
+            </tr>
+            <tr>
+                <td>Sidnei</td>
+                <td>Star Wars</td>
+                <td>Sobrenatural</td>
+                <td>Homem Aranha</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

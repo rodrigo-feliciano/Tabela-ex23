@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .corSim {
+            background-color: rgb(202, 189, 178);
+        }
+
+        .CorNao{
+            background-color: rgb(247, 242, 247);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="corSim">
+            <col class="CorNao">
+            <col class="corSim">
+            <col class="CorNao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Natali Amarante</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Vendedora</td>
+        </tr>
+        <tr>
+            <td>Cibele Feliciano</td>
+            <td>F</td>
+            <td>34</td>
+            <td>Esteticista</td>
+        </tr>
+        <tr>
+            <td>Robinson Feliciano</td>
+            <td>M</td>
+            <td>39</td>
+            <td>Uber</td>
+        </tr>
+        <tr>
+            <td>Sidnei Feliciano</td>
+            <td>M</td>
+            <td>40</td>
+            <td>Enfermeiro</td>
+        </tr>
+        <tr>
+            <td>Simone Feliciano</td>
+            <td>F</td>
+            <td>41</td>
+            <td>Cabeleireira</td>
+        </tr>
+        <tr>
+            <td>Maria Beatriz</td>
+            <td>F</td>
+            <td>65</td>
+            <td>Dona de casa</td>
+        </tr>
+        <tr>
+            <td>Rodrigo Feliciano</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Cabeleireiro/Programador</td>
+        </tr>
+        <tr>
+            <td>Jose Gomes</td>
+            <td>M</td>
+            <td>67</td>
+            <td>Nao para quieto</td>
+        </tr>
+    </table>
+</body>
+</html>
